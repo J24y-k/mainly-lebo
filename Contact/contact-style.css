@@ -1,0 +1,7 @@
+body{background:#070707;color:#eaeaea;font-family:Montserrat,system-ui;margin:0}
+.container{max-width:980px;margin:0 auto;padding:20px}
+.contact-main h1{font-size:28px}
+.contact-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;margin-top:18px}
+.card{background:rgba(255,255,255,.02);padding:18px;border-radius:12px;text-align:center}
+.card .btn{display:inline-block;margin-top:8px;padding:8px 12px;border-radius:8px;background:#ff63a5;color:#fff;text-decoration:none}
+.social-list a{display:inline-block;margin:6px}
