@@ -4,20 +4,15 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Lebogang Malefetse — Born to Move, Styled to Inspire</title>
-  <meta name="description" content="Lebogang Malefetse — professional dancer, content creator and model from Johannesburg. Portfolio, collaborations, and booking." />
-  <meta name="keywords" content="Lebogang Malefetse, dancer, content creator, model, Johannesburg, portfolio, booking, mainly lebo, lebo, dancer, tiktok dancer" />
+  <meta name="description" content="Mainly Lebo, a professional dancer, content creator and model from Johannesburg." />
+  <meta name="keywords" content="Mainly Lebo, Lebogang Malefetse, dancer Johannesburg, content creator, model, TikTok dancer, Instagram model, beauty collaborations, portfolio, booking" />
   <link rel="canonical" href="https://www.mainlylebo.co.za/" />
-  <!-- Preconnects / resource hints -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <!-- Preload hero image for LCP -->
-  <link rel="preload" as="image" href="/assets/hero-1.webp" imagesrcset="/assets/hero-1.webp 800w, /assets/hero-1@2x.webp 1600w" />
-  <!-- Fonts (load minimal weights) -->
+  <link rel="preload" as="image" href="https://images.unsplash.com/photo-1544716244-4d3f7c7b8b7a?w=800" /> <!-- Dance placeholder -->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/index-style.css" />
-  <!-- GSAP CDN -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
-  <!-- Structured Data JSON-LD (Person + WebSite) -->
   <script type="application/ld+json">
   {
     "@context":"https://schema.org",
@@ -34,7 +29,7 @@
           "https://www.tiktok.com/@mainly.lebo",
           "https://www.youtube.com/@mainly.lebo"
         ],
-        "image":"/assets/hero-1.webp"
+        "image":"https://images.unsplash.com/photo-1544716244-4d3f7c7b8b7a?w=1200"
       },
       {
         "@type":"WebSite",
@@ -50,7 +45,7 @@
 <body>
   <header class="site-header">
     <div class="container header-inner">
-      <a class="brand" href="/"><img src="/assets/logo.svg" alt="Mainly Lebo" width="140" /></a>
+      <a class="brand" href="/"><span>Mainly Lebo</span></a>
       <nav class="nav" id="site-nav" aria-label="Primary navigation">
         <a href="/#home">Home</a>
         <a href="/About/about.html">About</a>
@@ -61,7 +56,6 @@
         <span></span><span></span><span></span>
       </button>
     </div>
-
     <div id="mobile-menu" class="mobile-menu" hidden>
       <a href="/#home">Home</a>
       <a href="/About/about.html">About</a>
@@ -71,12 +65,18 @@
   </header>
 
   <main>
-    <!-- HERO -->
     <section id="home" class="hero">
-      <picture class="hero-picture" aria-hidden="true">
-        <source srcset="/assets/hero-1.webp 800w, /assets/hero-1@2x.webp 1600w" type="image/webp" />
-        <img src="/assets/hero-1.jpg" alt="Lebogang dancing - Mainly Lebo" loading="eager" width="1200" />
-      </picture>
+      <div class="hero-images">
+        <picture class="hero-picture active" aria-hidden="true">
+          <img src="/Images/WhatsApp Image 2025-11-16 at 18.17.10 (2).jpeg" alt="Mainly Lebo in dynamic dance pose" loading="eager" width="1200" />
+        </picture>
+        <picture class="hero-picture">
+          <img src="/Images/WhatsApp Image 2025-11-16 at 18.17.14.jpeg" alt="Mainly Lebo modeling stylish outfit" loading="lazy" width="1200" />
+        </picture>
+        <picture class="hero-picture">
+          <img src="/Images/WhatsApp Image 2025-11-16 at 18.17.11 (1).jpeg" alt="Mainly Lebo creating content on set" loading="lazy" width="1200" />
+        </picture>
+      </div>
       <div class="hero-content container">
         <h1 class="hero-title">Lebogang Malefetse</h1>
         <p class="hero-sub">Born to Move, Styled to Inspire — Dancer • Content Creator • Model</p>
@@ -87,7 +87,6 @@
       </div>
     </section>
 
-    <!-- QUICK STATS / TRUST -->
     <section class="trust container">
       <div class="trust-grid">
         <div class="trust-item">
@@ -105,14 +104,12 @@
       </div>
     </section>
 
-    <!-- FEATURED WORK PREVIEW -->
     <section class="featured container" aria-labelledby="featured-heading">
       <h2 id="featured-heading">Featured Projects</h2>
       <div class="projects-row" id="featured-list">
-        <!-- Insert project cards — use small images and link to project.html -->
         <article class="card">
           <a href="/PROJECTS/project.html#project-1">
-            <img src="/assets/p1-thumb.webp" alt="Collab with Chris Nails" loading="lazy" />
+            <img src="/Images/WhatsApp Image 2025-11-16 at 18.17.10 (1).jpeg" alt="Mainly Lebo collab with Chris Nails" loading="lazy" />
             <div class="card-body">
               <h3>Hair & Nails Campaign</h3>
               <p>Creative direction & movement for Nini Beauty Studio.</p>
@@ -121,30 +118,26 @@
         </article>
         <article class="card">
           <a href="/PROJECTS/project.html#project-2">
-            <img src="/assets/p2-thumb.webp" alt="Streetwear photoshoot" loading="lazy" />
+            <img src="/Images/WhatsApp Image 2025-11-16 at 18.17.09.jpeg" alt="Mainly Lebo streetwear photoshoot" loading="lazy" />
             <div class="card-body">
               <h3>Streetwear Campaign</h3>
               <p>Modeling & choreography for local streetwear brand.</p>
             </div>
           </a>
         </article>
-        <!-- add more -->
       </div>
     </section>
 
-    <!-- QUICK CONTACT -->
     <section class="contact-quick container">
       <h2>Work with me</h2>
       <p>For bookings: <a href="mailto:malefetselebogang@gmail.com">malefetselebogang@gmail.com</a> or <a href="https://wa.me/27797721216?text=Hey%20Lebo%2C%20I%20saw%20your%20page%20and%20I%20want%20to%20work%20with%20you" target="_blank">WhatsApp</a></p>
     </section>
-
   </main>
 
   <footer class="site-footer">
     <div class="container">
       <div class="footer-left">
-        <img src="/assets/logo-footer.svg" alt="Mainly Lebo" width="120" />
-        <p>© <span id="year"></span> Lebogang Malefetse — All rights reserved.</p>
+        <p>© <span id="year"></span> Lebogang Malefetse — All rights reserved | BUILT BY <a href="https://www.linkedin.com/in/jeremie-kazadi-013a55372?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener">JAY_K</a></p>
       </div>
       <div class="footer-right">
         <nav class="footer-nav">

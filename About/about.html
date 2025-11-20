@@ -1,9 +1,14 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" /><meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>About — Lebogang Malefetse</title>
-  <meta name="description" content="About Lebogang Malefetse — dancer, model and content creator. Story, experience and collaborations." />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About Lebogang Malefetse — Dancer & Content Creator</title>
+  <meta name="description" content="About Mainly Lebo: Johannesburg dancer, TikTok star, model. Journey from living room dances to brand collabs like Chris Nails." />
+  <meta name="keywords" content="Mainly Lebo, Lebogang Malefetse, about dancer Johannesburg, TikTok content creator, model story, beauty collaborations" />
+  <link rel="canonical" href="https://www.mainlylebo.co.za/About/about.html" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/index-style.css" />
   <link rel="stylesheet" href="/About/about-style.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
@@ -11,42 +16,96 @@
 <body>
   <header class="site-header">
     <div class="container header-inner">
-      <a class="brand" href="/"><img src="/assets/logo.svg" alt="Mainly Lebo" width="140" /></a>
-      <nav class="nav"><a href="/">Home</a><a href="/PROJECTS/project.html">Portfolio</a><a href="/Contact/contact.html">Contact</a></nav>
+      <a class="brand" href="/"><span>Mainly Lebo</span></a>
+      <nav class="nav" id="site-nav" aria-label="Primary navigation">
+        <a href="/#home">Home</a>
+        <a href="/About/about.html" class="active">About</a>
+        <a href="/PROJECTS/project.html">Portfolio</a>
+        <a href="/Contact/contact.html" class="cta">Contact</a>
+      </nav>
+      <button id="hamburger" class="hamburger" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div id="mobile-menu" class="mobile-menu" hidden>
+      <a href="/#home">Home</a>
+      <a href="/About/about.html">About</a>
+      <a href="/PROJECTS/project.html">Portfolio</a>
+      <a href="/Contact/contact.html">Contact</a>
     </div>
   </header>
 
-  <main class="container about-main">
-    <h1>Lebogang Malefetse</h1>
-    <p class="tag">Born to Move, Styled to Inspire — Dancer • Content Creator • Model</p>
-
-    <section class="bio">
-      <h2>My story</h2>
-      <p>I’m Lebogang Malefetse, a professional dancer and content creator from Johannesburg, South Africa. My journey started long before I ever stepped onto a stage or went viral online — it began in my living room, dancing to any song that played. What started as passion became purpose. I mix movement with fashion and storytelling to create content that connects.</p>
-      <p>From local shows to brand collaborations, I focus on energy, confidence and strong visuals. My dream is to represent South African dance on global stages and continue inspiring others to move boldly.</p>
+  <main>
+    <section class="about-hero">
+      <div class="hero-images">
+        <picture class="hero-picture active">
+          <img src="/Images/WhatsApp Image 2025-10-09 at 13.00.21.jpeg" alt="Portrait of Mainly Lebo in studio" loading="eager" width="800" />
+        </picture>
+        <picture class="hero-picture">
+          <img src="/Images/WhatsApp Image 2025-11-16 at 18.17.17.jpeg" alt="Mainly Lebo performing on stage" loading="lazy" width="800" />
+        </picture>
+      </div>
+      <div class="hero-content container">
+        <h1>Lebogang Malefetse</h1>
+        <p class="hero-sub">Born to Move, Styled to Inspire</p>
+      </div>
     </section>
 
-    <section class="skills">
-      <h2>Services</h2>
-      <ul>
-        <li>Brand campaigns (dance and modeling)</li>
-        <li>Creative choreography for ads & shoots</li>
-        <li>Social content creation</li>
-        <li>Appearances & workshops</li>
-      </ul>
-    </section>
+    <section class="about-main container">
+      <section class="bio">
+        <h2>My Story</h2>
+        <div class="bio-content">
+          <p>I am Lebogang Malefetse, a professional dancer and content creator from Johannesburg, South Africa. My journey started long before I ever stepped onto a stage or went viral online, it began in my living room, where I’d dance to any song that played, losing myself in the rhythm.</p>
+          <p>What started as pure passion soon became purpose. I began sharing my dance videos online, mixing movement with my love for fashion and storytelling. People connected, not just with my choreography, but with the energy, confidence, and style behind every move.</p>
+          <p>From performing at local shows to collaborating with brands and building a community of over a million followers, every step has taught me something new about expression, dedication, and growth.</p>
+          <p>Today, my dream is bigger than ever, to represent South African dance on global stages, to star in a Netflix dance movie, and to keep inspiring others to move boldly and live authentically. This is more than just my career, it’s my rhythm, my art, my story.</p>
+        </div>
+      </section>
 
-    <section class="collabs">
-      <h2>Collaborations</h2>
-      <p>Chris Nails, Nini Beauty Studio, Sponge In, Nicka’s Touch, Yandys_looks</p>
-    </section>
+      <section class="skills">
+        <h2>Services</h2>
+        <ul>
+          <li>Brand campaigns (dance and modeling)</li>
+          <li>Creative choreography for ads & shoots</li>
+          <li>Social content creation</li>
+          <li>Appearances & workshops</li>
+        </ul>
+      </section>
 
+      <section class="collabs">
+        <h2>Collaborations</h2>
+        <ul>
+          <li>Chris Nails</li>
+          <li>Nini Beauty Studio</li>
+          <li>Sponge In</li>
+          <li>Nicka’s Touch</li>
+          <li>Yandys Looks</li>
+        </ul>
+      </section>
+    </section>
   </main>
 
-  <footer class="site-footer container">
-    <p>Contact: <a href="mailto:malefetselebogang@gmail.com">malefetselebogang@gmail.com</a> • <a href="https://wa.me/27797721216?text=Hey%20Lebo">WhatsApp</a></p>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-left">
+        <p>© <span id="year"></span> Lebogang Malefetse — All rights reserved | BUILT BY <a href="https://www.linkedin.com/in/jeremie-kazadi-013a55372?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener">JAY_K</a></p>
+      </div>
+      <div class="footer-right">
+        <nav class="footer-nav">
+          <a href="/About/about.html">About</a>
+          <a href="/PROJECTS/project.html">Portfolio</a>
+          <a href="/Contact/contact.html">Contact</a>
+        </nav>
+        <div class="socials">
+          <a href="https://www.instagram.com/mainly.lebo" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://www.tiktok.com/@mainly.lebo" target="_blank" rel="noopener">TikTok</a>
+          <a href="https://www.youtube.com/@mainly.lebo" target="_blank" rel="noopener">YouTube</a>
+        </div>
+      </div>
+    </div>
   </footer>
 
+  <script src="/index.js" defer></script>
   <script src="/About/about.js" defer></script>
 </body>
 </html>
