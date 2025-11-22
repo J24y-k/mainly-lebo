@@ -4,15 +4,14 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Lebogang Malefetse — Born to Move, Styled to Inspire</title>
-  <meta name="description" content="Mainly Lebo, a professional dancer, content creator and model from Johannesburg." />
-  <meta name="keywords" content="Mainly Lebo, Lebogang Malefetse, dancer Johannesburg, content creator, model, TikTok dancer, Instagram model, beauty collaborations, portfolio, booking" />
+  <meta name="description" content="World Cup Champion Dancer | Content Creator | Model from Johannesburg with 1M+ followers" />
+  <meta name="keywords" content="Mainly Lebo, Lebogang Malefetse, Dance World Cup, dancer Johannesburg, content creator, model, TikTok dancer" />
   <link rel="canonical" href="https://www.mainlylebo.co.za/" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="preload" as="image" href="https://images.unsplash.com/photo-1544716244-4d3f7c7b8b7a?w=800" /> <!-- Dance placeholder -->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&family=Playfair+Display:wght@500;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/index-style.css" />
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
   <script type="application/ld+json">
   {
     "@context":"https://schema.org",
@@ -22,20 +21,20 @@
         "@id":"https://www.mainlylebo.co.za/#person",
         "name":"Lebogang Malefetse",
         "alternateName":"Mainly Lebo",
-        "jobTitle":"Dancer, Content Creator, Model",
+        "jobTitle":"Professional Dancer, Content Creator, Model",
+        "award":"Dance World Cup Champion 2024",
         "url":"https://www.mainlylebo.co.za/",
         "sameAs":[
           "https://www.instagram.com/mainly.lebo",
           "https://www.tiktok.com/@mainly.lebo",
           "https://www.youtube.com/@mainly.lebo"
-        ],
-        "image":"https://images.unsplash.com/photo-1544716244-4d3f7c7b8b7a?w=1200"
+        ]
       },
       {
         "@type":"WebSite",
         "@id":"https://www.mainlylebo.co.za/#website",
         "url":"https://www.mainlylebo.co.za",
-        "name":"Mainly Lebo",
+        "name":"Mainly Lebo - Professional Dancer & Content Creator",
         "publisher":{"@id":"https://www.mainlylebo.co.za/#person"}
       }
     ]
@@ -45,14 +44,17 @@
 <body>
   <header class="site-header">
     <div class="container header-inner">
-      <a class="brand" href="/"><span>Mainly Lebo</span></a>
+      <a class="brand" href="/">
+        <span class="brand-main">Mainly Lebo</span>
+        <span class="brand-sub">World Cup Champion</span>
+      </a>
       <nav class="nav" id="site-nav" aria-label="Primary navigation">
         <a href="/#home">Home</a>
         <a href="/About/about.html">About</a>
         <a href="/PROJECTS/project.html">Portfolio</a>
-        <a href="/Contact/contact.html" class="cta">Contact</a>
+        <a href="/Contact/contact.html" class="cta">Let's Work</a>
       </nav>
-      <button id="hamburger" class="hamburger" aria-expanded="false" aria-controls="mobile-menu">
+      <button id="hamburger" class="hamburger" aria-expanded="false" aria-controls="mobile-menu" aria-label="Toggle navigation">
         <span></span><span></span><span></span>
       </button>
     </div>
@@ -65,95 +67,280 @@
   </header>
 
   <main>
+    <!-- HERO SECTION -->
     <section id="home" class="hero">
-      <div class="hero-images">
-        <picture class="hero-picture active" aria-hidden="true">
-          <img src="/Images/WhatsApp Image 2025-11-16 at 18.17.10 (2).jpeg" alt="Mainly Lebo in dynamic dance pose" loading="eager" width="1200" />
-        </picture>
-        <picture class="hero-picture">
-          <img src="/Images/WhatsApp Image 2025-11-16 at 18.17.14.jpeg" alt="Mainly Lebo modeling stylish outfit" loading="lazy" width="1200" />
-        </picture>
-        <picture class="hero-picture">
-          <img src="/Images/WhatsApp Image 2025-11-16 at 18.17.11 (1).jpeg" alt="Mainly Lebo creating content on set" loading="lazy" width="1200" />
-        </picture>
+      <div class="hero-bg">
+        <div class="hero-images">
+          <div class="hero-slide active">
+            <img src="/Images/WhatsApp Image 2025-11-16 at 18.17.10 (2).jpeg" alt="Lebogang Malefetse in dynamic dance pose" loading="eager" />
+          </div>
+          <div class="hero-slide">
+            <img src="/Images/WhatsApp Image 2025-11-16 at 18.17.14.jpeg" alt="Lebogang modeling stylish outfit" loading="lazy" />
+          </div>
+          <div class="hero-slide">
+            <img src="/Images/WhatsApp Image 2025-11-16 at 18.17.11 (1).jpeg" alt="Lebogang creating content" loading="lazy" />
+          </div>
+        </div>
+        <div class="hero-overlay"></div>
       </div>
+      
       <div class="hero-content container">
+        <div class="hero-badge">🏆 Dance World Cup Champion 2024</div>
         <h1 class="hero-title">Lebogang Malefetse</h1>
-        <p class="hero-sub">Born to Move, Styled to Inspire — Dancer • Content Creator • Model</p>
+        <p class="hero-tagline">Born to Move, Styled to Inspire</p>
+        <p class="hero-sub">Professional Dancer • Content Creator • Model</p>
         <div class="hero-cta">
-          <a class="btn primary" href="/PROJECTS/project.html">See My Work</a>
-          <a class="btn ghost" href="https://wa.me/27797721216?text=Hey%20Lebo%2C%20I%20saw%20your%20page%20and%20I%20want%20to%20work%20with%20you" rel="noopener" target="_blank">Book via WhatsApp</a>
-        </div>
-      </div>
-    </section>
-
-    <section class="trust container">
-      <div class="trust-grid">
-        <div class="trust-item">
-          <strong>1M+</strong>
-          <span>Followers across platforms</span>
-        </div>
-        <div class="trust-item">
-          <strong>Brands</strong>
-          <span>Chris Nails, Nini Beauty Studio, Nicka’s Touch</span>
-        </div>
-        <div class="trust-item">
-          <strong>Available</strong>
-          <span>Bookings and collaborations</span>
-        </div>
-      </div>
-    </section>
-
-    <section class="featured container" aria-labelledby="featured-heading">
-      <h2 id="featured-heading">Featured Projects</h2>
-      <div class="projects-row" id="featured-list">
-        <article class="card">
-          <a href="/PROJECTS/project.html#project-1">
-            <img src="/Images/WhatsApp Image 2025-11-16 at 18.17.10 (1).jpeg" alt="Mainly Lebo collab with Chris Nails" loading="lazy" />
-            <div class="card-body">
-              <h3>Hair & Nails Campaign</h3>
-              <p>Creative direction & movement for Nini Beauty Studio.</p>
-            </div>
+          <a class="btn primary" href="/PROJECTS/project.html">
+            <span>Explore My Work</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
           </a>
-        </article>
-        <article class="card">
-          <a href="/PROJECTS/project.html#project-2">
-            <img src="/Images/WhatsApp Image 2025-11-16 at 18.17.09.jpeg" alt="Mainly Lebo streetwear photoshoot" loading="lazy" />
-            <div class="card-body">
-              <h3>Streetwear Campaign</h3>
-              <p>Modeling & choreography for local streetwear brand.</p>
-            </div>
+          <a class="btn ghost" href="https://wa.me/27797721216?text=Hey%20Lebo%2C%20I%20saw%20your%20page%20and%20I%20want%20to%20work%20with%20you" rel="noopener" target="_blank">
+            <span>Book Me</span>
           </a>
-        </article>
+        </div>
+        <div class="hero-scroll">
+          <span>Scroll to explore</span>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 5v14M5 12l7 7 7-7"/>
+          </svg>
+        </div>
       </div>
     </section>
 
-    <section class="contact-quick container">
-      <h2>Work with me</h2>
-      <p>For bookings: <a href="mailto:malefetselebogang@gmail.com">malefetselebogang@gmail.com</a> or <a href="https://wa.me/27797721216?text=Hey%20Lebo%2C%20I%20saw%20your%20page%20and%20I%20want%20to%20work%20with%20you" target="_blank">WhatsApp</a></p>
+    <!-- STATS SECTION -->
+    <section class="stats container">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <div class="stat-icon">🌍</div>
+          <strong class="stat-number" data-target="1000000">0</strong>
+          <span class="stat-label">Followers Worldwide</span>
+        </div>
+        <div class="stat-item">
+          <div class="stat-icon">🥇</div>
+          <strong class="stat-number">Gold Medal</strong>
+          <span class="stat-label">Dance World Cup 2024</span>
+        </div>
+        <div class="stat-item">
+          <div class="stat-icon">🤝</div>
+          <strong class="stat-number" data-target="15">0</strong>
+          <span class="stat-label">Brand Collaborations</span>
+        </div>
+        <div class="stat-item">
+          <div class="stat-icon">⭐</div>
+          <strong class="stat-number">5-Star Studio</strong>
+          <span class="stat-label">Top Dance Studio SA</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT PREVIEW -->
+    <section class="about-preview">
+      <div class="container">
+        <div class="about-content">
+          <div class="about-text">
+            <span class="section-label">About Lebo</span>
+            <h2>From Living Room to<br/>World Champion</h2>
+            <p>What started as dancing to any song in my Johannesburg living room became a journey to representing South Africa on the global stage. With over 1 million followers and a Dance World Cup gold medal, I blend dance, fashion, and storytelling to inspire others to move boldly.</p>
+            <div class="about-highlights">
+              <div class="highlight">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                  <polyline points="22 4 12 14.01 9 11.01"/>
+                </svg>
+                <span>1st Place Amateur Street Dance</span>
+              </div>
+              <div class="highlight">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                  <polyline points="22 4 12 14.01 9 11.01"/>
+                </svg>
+                <span>51+ Countries Competed</span>
+              </div>
+              <div class="highlight">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                  <polyline points="22 4 12 14.01 9 11.01"/>
+                </svg>
+                <span>Johannesburg's Top Creator</span>
+              </div>
+            </div>
+            <a class="btn secondary" href="/About/about.html">Read My Full Story</a>
+          </div>
+          <div class="about-visual">
+            <div class="about-image-wrapper">
+              <img src="/Images/WhatsApp Image 2025-10-09 at 13.00.21.jpeg" alt="Lebogang Malefetse portrait" loading="lazy" />
+              <div class="about-badge">
+                <span>🏆</span>
+                <strong>World Cup<br/>Champion</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED WORK -->
+    <section class="featured">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Portfolio</span>
+          <h2>Featured Work</h2>
+          <p>A selection of recent collaborations and creative projects</p>
+        </div>
+        
+        <div class="featured-grid">
+          <article class="featured-card large">
+            <a href="/PROJECTS/project.html#worldcup">
+              <div class="card-image">
+                <img src="/Images/WhatsApp Image 2025-11-16 at 18.21.16 (1).jpeg" alt="Dance World Cup Performance" loading="lazy" />
+                <div class="card-overlay">
+                  <span class="card-tag">Champion Performance</span>
+                </div>
+              </div>
+              <div class="card-content">
+                <h3>Dance World Cup 2024</h3>
+                <p>Gold medal winning performance representing South Africa in the amateur street dance category. Competed against 51+ countries.</p>
+                <span class="card-link">View Project →</span>
+              </div>
+            </a>
+          </article>
+
+          <article class="featured-card">
+            <a href="/PROJECTS/project.html#beauty">
+              <div class="card-image">
+                <img src="/Images/WhatsApp Image 2025-11-16 at 18.17.10 (1).jpeg" alt="Beauty Campaign" loading="lazy" />
+                <div class="card-overlay">
+                  <span class="card-tag">Brand Collab</span>
+                </div>
+              </div>
+              <div class="card-content">
+                <h3>Hair & Beauty Campaign</h3>
+                <p>Creative direction and modeling for Nini Beauty Studio's latest collection.</p>
+                <span class="card-link">View Project →</span>
+              </div>
+            </a>
+          </article>
+
+          <article class="featured-card">
+            <a href="/PROJECTS/project.html#fashion">
+              <div class="card-image">
+                <img src="/Images/WhatsApp Image 2025-11-16 at 18.17.09.jpeg" alt="Fashion Campaign" loading="lazy" />
+                <div class="card-overlay">
+                  <span class="card-tag">Fashion</span>
+                </div>
+              </div>
+              <div class="card-content">
+                <h3>Streetwear Movement</h3>
+                <p>Dance choreography meets fashion in this dynamic streetwear campaign.</p>
+                <span class="card-link">View Project →</span>
+              </div>
+            </a>
+          </article>
+        </div>
+
+        <div class="section-cta">
+          <a class="btn secondary" href="/PROJECTS/project.html">View Full Portfolio</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- COLLABORATIONS -->
+    <section class="collabs">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Partnerships</span>
+          <h2>Trusted by Leading Brands</h2>
+        </div>
+        <div class="collab-marquee">
+          <div class="collab-track">
+            <span class="collab-item">Chris Nails</span>
+            <span class="collab-item">Nini Beauty Studio</span>
+            <span class="collab-item">Sponge In</span>
+            <span class="collab-item">Nicka's Touch</span>
+            <span class="collab-item">Yandys Looks</span>
+            <span class="collab-item">Chris Nails</span>
+            <span class="collab-item">Nini Beauty Studio</span>
+            <span class="collab-item">Sponge In</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section class="cta-section">
+      <div class="container">
+        <div class="cta-content">
+          <h2>Let's Create Something Amazing</h2>
+          <p>Available for brand campaigns, content creation, choreography, and collaborations</p>
+          <div class="cta-buttons">
+            <a class="btn primary large" href="https://wa.me/27797721216?text=Hey%20Lebo%2C%20I%20saw%20your%20page%20and%20I%20want%20to%20work%20with%20you" target="_blank" rel="noopener">
+              <span>Book via WhatsApp</span>
+            </a>
+            <a class="btn ghost large" href="mailto:malefetselebogang@gmail.com">
+              <span>Email Me</span>
+            </a>
+          </div>
+        </div>
+      </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div class="container">
-      <div class="footer-left">
-        <p>© <span id="year"></span> Lebogang Malefetse — All rights reserved | BUILT BY <a href="https://www.linkedin.com/in/jeremie-kazadi-013a55372?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener">JAY_K</a></p>
-      </div>
-      <div class="footer-right">
-        <nav class="footer-nav">
-          <a href="/About/about.html">About</a>
-          <a href="/PROJECTS/project.html">Portfolio</a>
-          <a href="/Contact/contact.html">Contact</a>
-        </nav>
-        <div class="socials">
-          <a href="https://www.instagram.com/mainly.lebo" target="_blank" rel="noopener">Instagram</a>
-          <a href="https://www.tiktok.com/@mainly.lebo" target="_blank" rel="noopener">TikTok</a>
-          <a href="https://www.youtube.com/@mainly.lebo" target="_blank" rel="noopener">YouTube</a>
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <h3>Mainly Lebo</h3>
+            <p>World Cup Champion Dancer<br/>Content Creator & Model</p>
+            <div class="footer-socials">
+              <a href="https://www.instagram.com/mainly.lebo" target="_blank" rel="noopener" aria-label="Instagram">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153.509.5.902 1.105 1.153 1.772.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 01-1.153 1.772c-.5.509-1.105.902-1.772 1.153-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 01-1.772-1.153 4.904 4.904 0 01-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 011.153-1.772A4.897 4.897 0 015.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2zm0 5a5 5 0 100 10 5 5 0 000-10zm6.5-.25a1.25 1.25 0 10-2.5 0 1.25 1.25 0 002.5 0zM12 9a3 3 0 110 6 3 3 0 010-6z"/>
+                </svg>
+              </a>
+              <a href="https://www.tiktok.com/@mainly.lebo" target="_blank" rel="noopener" aria-label="TikTok">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-5.2 1.74 2.89 2.89 0 012.31-4.64 2.93 2.93 0 01.88.13V9.4a6.84 6.84 0 00-1-.05A6.33 6.33 0 005 20.1a6.34 6.34 0 0010.86-4.43v-7a8.16 8.16 0 004.77 1.52v-3.4a4.85 4.85 0 01-1-.1z"/>
+                </svg>
+              </a>
+              <a href="https://www.youtube.com/@mainly.lebo" target="_blank" rel="noopener" aria-label="YouTube">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+          
+          <div class="footer-links">
+            <h4>Quick Links</h4>
+            <nav>
+              <a href="/#home">Home</a>
+              <a href="/About/about.html">About</a>
+              <a href="/PROJECTS/project.html">Portfolio</a>
+              <a href="/Contact/contact.html">Contact</a>
+            </nav>
+          </div>
+
+          <div class="footer-contact">
+            <h4>Get In Touch</h4>
+            <p><a href="mailto:malefetselebogang@gmail.com">malefetselebogang@gmail.com</a></p>
+            <p><a href="tel:+27797721216">+27 79 772 1216</a></p>
+            <a class="btn ghost small" href="https://wa.me/27797721216?text=Hey%20Lebo%2C%20I%20saw%20your%20page%20and%20I%20want%20to%20work%20with%20you" target="_blank" rel="noopener">WhatsApp Me</a>
+          </div>
         </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© <span id="year"></span> Lebogang Malefetse. All rights reserved.</p>
+        <p>Built by <a href="https://www.linkedin.com/in/jeremie-kazadi-013a55372" target="_blank" rel="noopener">JAY_K</a></p>
       </div>
     </div>
   </footer>
 
-  <script src="/index.js" defer></script>
+  <script src="/index.js"></script>
 </body>
 </html>
