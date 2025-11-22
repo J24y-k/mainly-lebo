@@ -315,6 +315,7 @@ function initAnimations() {
   }
   
   // Stats items
+  /*
   const statItems = document.querySelectorAll('.stat-item');
   if (statItems.length > 0) {
     gsap.from(statItems, {
@@ -330,7 +331,7 @@ function initAnimations() {
       ease: 'power2.out'
     });
   }
-  
+
   // About section animations
   const aboutLabel = document.querySelector('.about-preview .section-label');
   if (aboutLabel) {
@@ -345,6 +346,8 @@ function initAnimations() {
       ease: 'power2.out'
     });
   }
+
+  
   
   const aboutH2 = document.querySelector('.about-text h2');
   if (aboutH2) {
@@ -466,4 +469,6 @@ function initAnimations() {
       ease: 'back.out(1.7)'
     });
   }
+
+  */
 }
