@@ -51,7 +51,7 @@ function initAboutAnimations() {
   // Hero entrance
   gsap.from('.about-hero .hero-badge', {
     y: -30,
-    opacity: 0,
+    //opacity: 0,
     duration: 1,
     delay: 0.2,
     ease: 'power3.out'
@@ -59,7 +59,7 @@ function initAboutAnimations() {
   
   gsap.from('.about-hero h1', {
     y: 50,
-    opacity: 0,
+    //opacity: 0,
     duration: 1.2,
     delay: 0.4,
     ease: 'power3.out'
@@ -67,7 +67,7 @@ function initAboutAnimations() {
   
   gsap.from('.about-hero .hero-tagline', {
     y: 30,
-    opacity: 0,
+    //opacity: 0,
     duration: 1,
     delay: 0.6,
     ease: 'power3.out'
@@ -75,7 +75,7 @@ function initAboutAnimations() {
   
   gsap.from('.hero-stat', {
     y: 30,
-    opacity: 0,
+    //opacity: 0,
     duration: 0.8,
     stagger: 0.15,
     delay: 0.8,
@@ -89,7 +89,7 @@ function initAboutAnimations() {
       start: 'top 75%'
     },
     x: -50,
-    opacity: 0,
+    //opacity: 0,
     duration: 0.8,
     ease: 'power2.out'
   });
@@ -100,7 +100,7 @@ function initAboutAnimations() {
       start: 'top 75%'
     },
     y: 40,
-    opacity: 0,
+    //opacity: 0,
     duration: 1,
     delay: 0.2,
     ease: 'power3.out'
@@ -112,7 +112,7 @@ function initAboutAnimations() {
       start: 'top 80%'
     },
     y: 20,
-    opacity: 0,
+    //opacity: 0,
     duration: 0.6,
     stagger: 0.1,
     ease: 'power2.out'
@@ -124,7 +124,7 @@ function initAboutAnimations() {
       start: 'top 80%'
     },
     scale: 0.95,
-    opacity: 0,
+    //opacity: 0,
     duration: 0.8,
     ease: 'power3.out'
   });
@@ -135,7 +135,7 @@ function initAboutAnimations() {
       start: 'top 80%'
     },
     y: 40,
-    opacity: 0,
+    //opacity: 0,
     duration: 0.8,
     stagger: 0.2,
     ease: 'power2.out'
@@ -148,7 +148,7 @@ function initAboutAnimations() {
       start: 'top 80%'
     },
     y: 50,
-    opacity: 0,
+    //opacity: 0,
     duration: 0.8,
     stagger: 0.15,
     ease: 'power2.out'
@@ -161,7 +161,7 @@ function initAboutAnimations() {
       start: 'top 75%'
     },
     x: -40,
-    opacity: 0,
+    //opacity: 0,
     duration: 0.8,
     stagger: 0.2,
     ease: 'power2.out'
@@ -174,7 +174,7 @@ function initAboutAnimations() {
       start: 'top 80%'
     },
     scale: 0.9,
-    opacity: 0,
+    //opacity: 0,
     duration: 0.6,
     stagger: 0.1,
     ease: 'back.out(1.7)'

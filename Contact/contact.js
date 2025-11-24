@@ -11,21 +11,24 @@ document.addEventListener('DOMContentLoaded', () => {
 // ANIMATIONS
 // ===================================
 function initContactAnimations() {
-  if (!window.gsap || !window.ScrollTrigger) return;
-  
-  gsap.registerPlugin(ScrollTrigger);
+  if (!window.gsap) return;
+
+  const ScrollTriggerPlugin = window.ScrollTrigger || (window.gsap && window.gsap.ScrollTrigger);
+  if (!ScrollTriggerPlugin) return;
+
+  gsap.registerPlugin(ScrollTriggerPlugin);
   
   // Hero entrance
   gsap.from('.contact-hero .section-label', {
     y: -30,
-    opacity: 0,
+    //opacity: 0,
     duration: 0.8,
     ease: 'power2.out'
   });
   
   gsap.from('.contact-hero h1', {
     y: 40,
-    opacity: 0,
+    //opacity: 0,
     duration: 1,
     delay: 0.2,
     ease: 'power3.out'
@@ -33,7 +36,7 @@ function initContactAnimations() {
   
   gsap.from('.hero-lead', {
     y: 20,
-    opacity: 0,
+    //opacity: 0,
     duration: 0.8,
     delay: 0.4,
     ease: 'power2.out'
@@ -46,7 +49,7 @@ function initContactAnimations() {
       start: 'top 75%'
     },
     y: 60,
-    opacity: 0,
+    //opacity: 0,
     duration: 0.8,
     stagger: 0.2,
     ease: 'power2.out'
@@ -59,7 +62,7 @@ function initContactAnimations() {
       start: 'top 80%'
     },
     y: 40,
-    opacity: 0,
+    //opacity: 0,
     duration: 0.6,
     stagger: 0.15,
     ease: 'power2.out'
@@ -72,7 +75,7 @@ function initContactAnimations() {
       start: 'top 80%'
     },
     x: -40,
-    opacity: 0,
+    //opacity: 0,
     duration: 0.6,
     stagger: 0.1,
     ease: 'power2.out'
